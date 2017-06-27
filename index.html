@@ -73,9 +73,19 @@ Vegtables</p>
   
 
 <h2 style="background-color:rgb(216, 193, 173);display:inline">I created a paddle ball game using Scratch:</h2><br/>
-  <img src="image2.jpg.png" alt="Paddle Ball" style="width:304px;height:228px;"><br/>
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="image2.jpg.png" alt="Paddle Ball" style="width:304px;height:228px;"><br/>
 
-  
+  <script>
+function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+}
+
+function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+}
+</script>
 
 
 <h2 style="background-color:rgb(216, 193, 173);display:inline">Robot Dancing:</h2><br/>
